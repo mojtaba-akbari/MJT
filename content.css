@@ -1,0 +1,48 @@
+/* Mojjjak: subtitle overlay styles */
+/* Authors: mojtaba.akbari@gwdg.de, matthias.eulert@gwdg.de */
+
+#mjt-subtitle-container {
+  position: fixed;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 85vw;
+  z-index: 2147483647;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.mjt-subtitle-line {
+  padding: 14px 30px;
+  background: rgba(0, 0, 0, 0.60);
+  color: #fff;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  border-radius: 14px;
+  text-align: left;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  opacity: 1;
+  transform: translateY(0);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mjt-subtitle-enter {
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+.mjt-subtitle-exit {
+  opacity: 0 !important;
+  transform: translateY(-8px) !important;
+}
