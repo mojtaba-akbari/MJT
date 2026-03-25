@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "MJT - Mojjjak Translator",
   "version": "1.0",
-  "description": "Real-time tab audio translation with live subtitles. By Mojtaba Akbari & Matthias Eulert @ GWDG.",
+  "description": "Real-time translation with live subtitles.",
   "author": "mojtaba.akbari@gwdg.de, matthias.eulert@gwdg.de",
   "permissions": [
     "tabCapture",

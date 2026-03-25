@@ -12,7 +12,8 @@ Or in the same way. MJT was built with three groups of people in mind: those who
 - Real-time Translation , Source platform-independent
 - 9 languages supported (German, English, French, Spanish, Japanese, Chinese, Russian, Portuguese, Italian)
 - Silence detection
-- Noise Canceler
+- Noise Suppression
+- Audio Classification(music, laughter, applause, speech, etc.)
 - Context-aware translation
 - Subtitle log with timestamps and .txt export
 - Adjustable subtitle position (top/center/bottom)
@@ -37,12 +38,13 @@ Or in the same way. MJT was built with three groups of people in mind: those who
 - Chrome Extension Manifest V3
 - Offscreen Document API (for MediaRecorder)
 - Web Audio API (silence detection + audio passthrough)
-- BroadcastChannel API (background ↔ offscreen communication)
+- BroadcastChannel API (background offscreen communication)
 
 ## Future
 1. Firefox Extension
 2. Android Extension
-3. Mac
+3. Safari Native Extension
+
 ## Authors
 
 - **Mojtaba Akbari** — mojtaba.akbari@gwdg.de
